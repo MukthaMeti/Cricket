@@ -1,69 +1,70 @@
-# 🏏 XYZ Organization - Cricket Tournament Website
+# Getting Started with Create React App
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Problem Statement](#problem-statement)
-- [Technologies Used](#technologies-used)
-- [Modules Used](#modules-used)
-- [Required Installations](#required-installations)
-- [Project Flow](#project-flow)
-- [Components](#components)
-- [Conclusion](#conclusion)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Introduction
+## Available Scripts
 
-Welcome to the XYZ Organization’s Cricket Tournament website! This interactive platform serves as a hub for cricket enthusiasts and players, dedicated to showcasing various cricket tournaments across multiple formats. Developed using React.js and styled with Tailwind CSS, this website provides a dynamic and engaging experience for users. Immerse yourself in the world of cricket, explore upcoming tournaments, register for events, and access a wealth of cricket-related information. Whether you're a player, a fan, or a sponsor, this platform is designed to meet all your cricket needs!
+In the project directory, you can run:
 
-## Problem Statement
+### `npm start`
 
-The objective is to create an interactive and responsive web page using the following React components:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-1. *Navbar*: A navigation bar for easy access to different sections of the website.
-2. *Sidebar*: A collapsible menu to navigate between various pages.
-3. *Search Bar*: A user-friendly input for searching events and tournaments.
-4. *Cards*: Display at least four cards, each containing an image and relevant information about cricket tournaments.
-5. *Pie Charts*: At least four pie charts representing relevant cricket statistics or information.
-6. *Table*: A table with a minimum of five columns and four rows displaying cricket data.
-7. *Form*: A form that includes date selection, dropdowns, checkboxes (minimum of 3), radio buttons (minimum of 2), text boxes (minimum of 2), and a submit button.
-8. *Footer*: Content relevant to the XYZ Organization.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-The website should exhibit smooth responsive behavior, adapting seamlessly to different screen sizes and devices.
+### `npm test`
 
-## Technologies Used
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### React.js
-React.js is utilized for building a component-based UI, enhancing reusability and performance in dynamic web interfaces. The virtual DOM ensures efficient updates, resulting in faster rendering.
+### `npm run build`
 
-### Tailwind CSS
-Tailwind CSS is employed for styling, providing a utility-first approach that allows for rapid UI development while maintaining design consistency.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Modules Used
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### React
-The core library for building user interfaces in JavaScript.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### React Router DOM
-- *Route*: Defines components that render based on the current URL.
-- *Routes*: Manages multiple routes within the application.
+### `npm run eject`
 
-### React Icons
-Icons for enhancing UI elements such as the navbar and sidebar.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### useState and useRef
-React hooks for managing state and creating references in functional components.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Chart.js and React-Chartjs-2
-Libraries for rendering pie charts and other statistical representations in a React-friendly way.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Required Installations
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-To set up the project locally, ensure you have Node.js installed, then follow these steps:
+## Learn More
 
-1. *Clone the repository*:
-   bash
-     git clone https://github.com/MukthaMeti/Cricket.git
-     cd xyz-organization-website
-2. **Install the necessary npm packages and run it:**
-   bash
-     npm install react react-icons react-chartjs-2 chart.js@latest react-router-dom
-     npm start
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

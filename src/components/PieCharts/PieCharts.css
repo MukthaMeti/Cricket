@@ -1,0 +1,66 @@
+
+.footer {
+  background-color: #16ba19;
+  color: white;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+.github-img {
+  width: 90px;
+  height: 42px;
+  order: 2;
+  margin-top: 10px;
+}
+
+.copy-right-para {
+  background-color: #29335c;
+  padding: 0 20px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 17px;
+  margin: 0;
+  order: 1;
+  flex: 1;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.pie-chart-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px; 
+}
+
+
+.pie-chart {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  background-color: #ffffff;
+  color: #131cc7;
+  border-radius: 10px;
+  max-height: calc(1118.89*80); 
+  margin-bottom: 40px; 
+  margin-top: 75px;
+}
+
+.pie-chart:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  color: rgb(244, 244, 244);
+}
+
+

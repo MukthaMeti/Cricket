@@ -1,0 +1,51 @@
+/* src/components/table/Table.css */
+
+/* Add styles to the body to set a background image */
+body {
+    background: url('https://t3.ftcdn.net/jpg/04/65/23/72/240_F_465237236_NKKcSkBbOuyCeB2IrMRlfiW9wmGKD4Ci.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Adjustments for small screens */
+  @media screen and (max-width: 768px) {
+    .table-container {
+      max-width: 90%;
+      margin: 20px auto;
+      margin-top: 75px;
+    }
+  }
+  
+  .table-container {
+    max-width: 700px;
+    margin: 20px auto;
+    border: 3px solid #373789;
+    box-shadow: 0 0 40px #373789;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    border: 2px solid #303094;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .custom-table th {
+    background-color: #f2f2f2;
+  }
+  

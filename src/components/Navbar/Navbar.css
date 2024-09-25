@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor: #16ba19;
+	--mainColorLight: #5767aa;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #db2b39;
+	--textColor: #eee;
+}
+
+header {
+	display: flex;
+	position: fixed;
+	left:0;
+	right:0;
+	top:0;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 2rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+	/* margin-left: 20px; */
+}
+
+
+
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+.search-bar {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+}
+/* Add these styles to your existing CSS file */
+
+/* Register Button Styles */
+.register-btn {
+    background-color: var(--secondaryColor); /* Use the secondary color for the button */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding for size */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+    margin-left: auto; /* Push to the right */
+}
+
+.register-btn:hover {
+    background-color: darken(var(--secondaryColor), 10%); /* Darken the button on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Registration Form Styles */
+.registration-form {
+    position: fixed; /* Position fixed so it stays in view */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the size */
+    width: 400px; /* Fixed width */
+    max-width: 90%; /* Responsive max width */
+    padding: 20px; /* Inner padding */
+    background-color: rgba(56, 53, 133, 0.497); /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.registration-form h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.registration-form input {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Inner padding */
+    margin: 10px 0; /* Margin between inputs */
+    border: 1px solid #0e0c0c; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.registration-form button[type="submit"] {
+    background-color: var(--mainColor); /* Use main color for submit button */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px; /* Inner padding */
+    width: 100%; /* Full width */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+.registration-form button[type="submit"]:hover {
+    background-color: darken(var(--mainColor), 10%); /* Darken on hover */
+}
+
+/* Close Button in the Registration Form */
+.registration-form .close-btn {
+    background: transparent; /* Transparent background */
+    border: none; /* No border */
+    color: #db2b39; /* Use secondary color */
+    font-size: 1.5rem; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    position: absolute; /* Position in the corner */
+    top: 10px; /* Distance from top */
+    right: 10px; /* Distance from right */
+}
+
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}
